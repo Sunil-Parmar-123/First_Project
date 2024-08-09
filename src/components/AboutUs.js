@@ -28,7 +28,7 @@ export default function AboutUs(props) {
   return (
     <>
     <div className="container">
-      <h2 className="my-3" style={myStyle}>About Us</h2>
+      <h2 className="my-5" style={myStyle}>About Us</h2>
         <div className="accordion" id="accordionExample">
             <div className="accordion-item">
             <h2 className="accordion-header">
@@ -95,7 +95,7 @@ export default function AboutUs(props) {
                 </div>
             </div>
             </div>
-            <div className="accordion-item">
+            <div style={myStyle} className="accordion-item">
             <h2 className="accordion-header">
                 <button
                 className="accordion-button collapsed"
