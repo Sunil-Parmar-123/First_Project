@@ -43,7 +43,7 @@ export default function TextArea(props) {
           placeholder="Leave a comment here"
           id="floatingTextarea"
           value={Text} rows="8" onChange={onchanging}
-          style={{backgroundColor : props.mode ==="light"?"white":"#c63900",color : props.mode === "light"?"black":"white"}}
+          style={{backgroundColor : props.mode ==="light"?"white":"rgba(104, 101, 99, 0.49)",color : props.mode === "light"?"black":"white"}}
           
         ></textarea>
         
@@ -58,7 +58,7 @@ export default function TextArea(props) {
         <button disabled={Text.length===0} className="btn btn-warning my-3 mx-4" onClick={textclear}>
           Clear Text
         </button>
-        <button disabled={Text.length===0} className="btn btn-warning my-3 mx-2" onClick={copyText}>
+        <button disabled={Text.length===0} className="btn btn-warning my-3 mx-4" onClick={copyText}>
           Copy Text
         </button>
 
